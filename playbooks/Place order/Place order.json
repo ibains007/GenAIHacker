@@ -3,11 +3,15 @@
   "displayName": "Place order",
   "goal": "Identify the orders that the user needs to order depending on the meals that they wish to make and what ingredients they already have at home",
   "steps": [ {
+    "text": "Place an order for customer if customer has provided a shopping list."
+  }, {
     "text": "Collect the $ingredients that the user may already have and use ${TOOL: Recipe Search} to build a list of ingredients neededS."
   }, {
     "text": "confirm with the user that they are happy to place the order and send this to a the supermarket"
   }, {
     "text": "add this to an existing shopping list if one exists"
+  }, {
+    "text": "provide order id and deivery date and time."
   } ],
-  "referencedTools": [ "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/ea759282-aa35-419f-84ca-4ae7a332b21d", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/f30f6766-97ef-4b55-9865-b380b940bf9a" ]
+  "referencedTools": [ "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/54b583ed-0890-40c9-9484-c9fa99431ed3", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/b862d214-e104-4ee6-94d6-474021b2faaa", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/ea759282-aa35-419f-84ca-4ae7a332b21d", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/f30f6766-97ef-4b55-9865-b380b940bf9a" ]
 }
