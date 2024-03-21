@@ -1,7 +1,7 @@
 {
   "name": "54b583ed-0890-40c9-9484-c9fa99431ed3",
   "displayName": "Create shopping list",
-  "description": "Add ingredients to a shopping list that can be sent to the supermarket for collection",
+  "description": "Add ingredients to a shopping list that can be sent to the supermarket for collection.\n\nplace the order and provide a order id and delivery time and date.",
   "actions": [ "Create shopping list" ],
   "dataStoreSpec": {
     "dataStoreConnections": [ {
@@ -11,7 +11,7 @@
     } ],
     "models": {
       "summarizationModel": {
-      
+        "model": "gemini_pro"
       }
     },
     "fallbackPrompt": {
