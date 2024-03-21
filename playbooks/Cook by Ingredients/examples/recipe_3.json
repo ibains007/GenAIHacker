@@ -1,0 +1,51 @@
+{
+  "name": "86b00e17-fa4c-490d-a218-7f6b8bfb04b8",
+  "actions": [ {
+    "toolUse": {
+      "tool": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/b862d214-e104-4ee6-94d6-474021b2faaa",
+      "action": "search_by_ingredients",
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "",
+          "snippets": [ {
+            "text": "",
+            "title": "",
+            "uri": ""
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "agentUtterance": {
+      "text": "I love vegetarian pizza's too.. \n\nThe recipe should include the ingredients and instructions on how to make the dough, sauce, and toppings.\n\n**Ingredients:**\n\n* **Dough:**\n   - 1 cup all-purpose flour\n   - 1/2 teaspoon baking powder\n   - 1/2 teaspoon salt\n   - 1 cup warm water\n* **Sauce:**\n   - 1 cup marinara sauce\n   - 1/2 cup chopped onions\n   - 1/2 cup chopped green peppers\n   - 1/4 cup chopped fresh basil\n* **Toppings:**\n   - 1 cup shredded vegan cheese"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Great, can you add the ingredients to my shopping list please?"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Done!, is there anything else I can help you with today?"
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "The user would like to book a hotel room near Coronado Beach, CA.",
+    "parameters": [ {
+      "name": "city",
+      "value": "Coronado Beach"
+    } ]
+  },
+  "playbookOutput": {
+    "executionSummary": "The agent booked Hotel del Coronado Coronado Beach for the user and shared the confirmation number.",
+    "state": "OK",
+    "parameters": [ {
+      "name": "confirmation_number",
+      "value": "6QG5QZDC"
+    } ]
+  },
+  "displayName": "recipe_3",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

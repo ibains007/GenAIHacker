@@ -14,7 +14,7 @@
     "steps": [ {
       "text": "repeat if the user has new or additional requirements."
     }, {
-      "text": "PREFER to use ${TOOL: Recipe Search} to get results for the user"
+      "text": "use ${TOOL: search_by_ingredients} to return a list of ingredients to the user"
     } ]
   } ],
   "inputParameterDefinitions": [ {

@@ -1,0 +1,51 @@
+{
+  "name": "c75d24ee-39cb-4e47-b078-c42d5bc04caf",
+  "actions": [ {
+    "toolUse": {
+      "tool": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/b862d214-e104-4ee6-94d6-474021b2faaa",
+      "action": "search_by_ingredients",
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "",
+          "snippets": [ {
+            "text": "",
+            "title": "",
+            "uri": ""
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Chicken curry and rice.. one for my favourites....Here's the recipe:\n\n**Ingredients:**\n\n\nFor the curry\n- 1 tbsp curry powder\n- 1 tsp turmeric powder\n- 1 tsp cumin seeds\n- 1 tsp mustard seeds\n- 1 onion, finely chopped\n- 2 tomatoes, finely chopped\n- 1 tbsp grated ginger\n- 1 tbsp grated garlic\n- 2 chicken thighs, boneless and skinless\n- 1 cup chicken broth\n- 1 cup coconut milk\n- 1 cup water\n\nFor the rice\n- 2 cups basmati rice\n- 3 cups water\n- Salt to taste\n-"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Great, can you add the ingredients to my shopping list please?"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Done!, is there anything else I can help you with today?"
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "The user would like to book a hotel room near Coronado Beach, CA.",
+    "parameters": [ {
+      "name": "city",
+      "value": "Coronado Beach"
+    } ]
+  },
+  "playbookOutput": {
+    "executionSummary": "The agent booked Hotel del Coronado Coronado Beach for the user and shared the confirmation number.",
+    "state": "OK",
+    "parameters": [ {
+      "name": "confirmation_number",
+      "value": "6QG5QZDC"
+    } ]
+  },
+  "displayName": "recipe_4",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

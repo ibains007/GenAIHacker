@@ -12,7 +12,7 @@
     "playbookInvocation": {
       "playbook": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/cb8ffec2-a996-4cf2-8682-af4c19a33a66",
       "playbookInput": {
-        "precedingConversationSummary": "The user wants to book a hotel in Loveland",
+        "precedingConversationSummary": "The user wants to the ingredients to make a Chicken Jalfrezi",
         "parameters": [ {
           "name": "city",
           "value": "Loveland"
@@ -25,7 +25,7 @@
         } ]
       },
       "playbookOutput": {
-        "executionSummary": "The customer was able to book a hotel in Loveland"
+        "executionSummary": "The agent was able to share the ingredients needed"
       }
     }
   } ],

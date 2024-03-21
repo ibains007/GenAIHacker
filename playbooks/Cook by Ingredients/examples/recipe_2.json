@@ -1,0 +1,50 @@
+{
+  "name": "d47ed72f-b529-489c-8311-a4f0d0b4f395",
+  "actions": [ {
+    "toolUse": {
+      "tool": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/b862d214-e104-4ee6-94d6-474021b2faaa",
+      "action": "search_by_ingredients",
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "",
+          "snippets": [ {
+            "text": "",
+            "title": "",
+            "uri": ""
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Chicken Tikka Masala is a popular Indian dish made with marinated chicken, yogurt, spices and a creamy tomato sauce. Here's the recipe:\n\n**Ingredients:**\n\n- 2 pounds boneless, skinless chicken thighs or drumsticks\n- 1 cup plain yogurt\n- 1 teaspoon ginger-garlic paste\n- 1 teaspoon turmeric powder\n- 1 teaspoon curry powder\n- 1 teaspoon red chili powder\n- 1 teaspoon cumin seeds\n- 1 teaspoon coriander seeds\n- 1 onion, finely diced\n- 2 tomatoes, finely chopped\n- 1 cup chicken broth\n- 1 cup water"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Great, can you add the ingredients to my shopping list please?"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Done!, is there anything else I can help you with today?"
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "The user would like to book a hotel room near Coronado Beach, CA.",
+    "parameters": [ {
+      "name": "city",
+      "value": "Coronado Beach"
+    } ]
+  },
+  "playbookOutput": {
+    "executionSummary": "The agent booked Hotel del Coronado Coronado Beach for the user and shared the confirmation number.",
+    "state": "OK",
+    "parameters": [ {
+      "name": "confirmation_number",
+      "value": "6QG5QZDC"
+    } ]
+  },
+  "displayName": "recipe_2",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_OK"
+}
