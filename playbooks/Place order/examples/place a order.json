@@ -1,0 +1,14 @@
+{
+  "name": "eb2026da-7a93-43d1-8c60-48d243c9eede",
+  "playbookInput": {
+    "precedingConversationSummary": "place a order"
+  },
+  "playbookOutput": {
+    "executionSummary": "thank you for placing, your order id and delivery date and time",
+    "state": "OK"
+  },
+  "displayName": "place a order",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "b0a0cbc8-1be0-483b-b36b-0db6a4c03665",
+  "displayName": "events",
+  "description": "this have events training data",
+  "actions": [ "events" ],
+  "dataStoreSpec": {
+    "dataStoreConnections": [ {
+      "dataStoreType": "UNSTRUCTURED",
+      "dataStore": "projects/67962247628/locations/us/collections/default_collection/dataStores/events_1711046096076",
+      "documentProcessingMode": "DOCUMENTS"
+    } ],
+    "models": {
+      "summarizationModel": {
+      
+      }
+    },
+    "fallbackPrompt": {
+    
+    },
+    "groundingSettings": {
+    
+    }
+  },
+  "actionSchemas": [ {
+    "name": "events",
+    "inputParameters": [ {
+      "name": "requestBody",
+      "schema": "{\n  \"required\" : [ \"query\" ],\n  \"type\" : \"object\",\n  \"properties\" : {\n    \"query\" : {\n      \"type\" : \"string\",\n      \"description\" : \"Query for the data store search\"\n    },\n    \"filter\" : {\n      \"type\" : \"string\",\n      \"description\" : \"Filter expression to enhance data store search results.\"\n    }\n  }\n}"
+    } ],
+    "outputParameters": [ {
+      "name": "200",
+      "schema": "{\n  \"type\" : \"object\",\n  \"properties\" : {\n    \"answer\" : {\n      \"type\" : \"string\",\n      \"description\" : \"Answer with the highest match confidence\"\n    },\n    \"snippets\" : {\n      \"type\" : \"array\",\n      \"description\" : \"Snippets used to derive the answer\",\n      \"items\" : {\n        \"type\" : \"object\",\n        \"properties\" : {\n          \"uri\" : {\n            \"type\" : \"string\",\n            \"description\" : \"URI of the source used to derive the answer\"\n          },\n          \"text\" : {\n            \"type\" : \"string\",\n            \"description\" : \"Source text used to derive the answer\"\n          },\n          \"title\" : {\n            \"type\" : \"string\",\n            \"description\" : \"Title of the source used to derive the answer\"\n          }\n        }\n      }\n    }\n  }\n}"
+    } ]
+  } ],
+  "toolType": "CUSTOMIZED_TOOL"
+}
