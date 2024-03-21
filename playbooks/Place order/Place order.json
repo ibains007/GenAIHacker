@@ -1,0 +1,13 @@
+{
+  "name": "1c5814fa-da3e-4cc8-b0cf-96694c5d841d",
+  "displayName": "Place order",
+  "goal": "Identify the orders that the user needs to order depending on the meals that they wish to make and what ingredients they already have at home",
+  "steps": [ {
+    "text": "Collect the $ingredients that the user may already have and use ${TOOL: Recipe Search} to build a list of ingredients neededS."
+  }, {
+    "text": "confirm with the user that they are happy to place the order and send this to a the supermarket"
+  }, {
+    "text": "add this to an existing shopping list if one exists"
+  } ],
+  "referencedTools": [ "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/ea759282-aa35-419f-84ca-4ae7a332b21d", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/f30f6766-97ef-4b55-9865-b380b940bf9a" ]
+}

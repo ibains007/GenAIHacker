@@ -1,0 +1,15 @@
+{
+  "fallbackSettings": {
+    "selectedPrompt": "Default"
+  },
+  "generativeSafetySettings": {
+  
+  },
+  "languageCode": "en",
+  "knowledgeConnectorSettings": {
+    "business": "internal"
+  },
+  "llmModelSettings": {
+    "model": "gemini-pro"
+  }
+}

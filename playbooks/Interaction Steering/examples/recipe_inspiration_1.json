@@ -1,0 +1,63 @@
+{
+  "name": "7809fa9d-6ac5-4212-a11b-7ce4dc2c9e41",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "Hi Patrick! I'm here to help with your cooking needs. What do you want to cook today?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "I want to make a chicken biryani"
+    }
+  }, {
+    "playbookInvocation": {
+      "playbook": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/b0b56b60-d3dd-4402-a684-05affced113f",
+      "playbookInput": {
+        "precedingConversationSummary": "The user wants to find a recipe to make a Chicken Biryani"
+      },
+      "playbookOutput": {
+        "executionSummary": "The agent was able to find a chicken biryani recipe and share the ingredients and instructions ",
+        "state": "OK"
+      },
+      "playbookState": "OUTPUT_STATE_OK"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Anything else I can help you with today?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Yeah my son won't eat that, so I want to make him a pasta dish"
+    }
+  }, {
+    "playbookInvocation": {
+      "playbook": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/cb8ffec2-a996-4cf2-8682-af4c19a33a66",
+      "playbookInput": {
+        "precedingConversationSummary": "User wants a pasta dish recipe",
+        "parameters": [ {
+          "name": "city_name",
+          "value": "San Francisco"
+        } ]
+      },
+      "playbookOutput": {
+        "executionSummary": "the agent shares a pasta recipe",
+        "state": "OK"
+      },
+      "playbookState": "OUTPUT_STATE_OK"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Is there anything else I can help you with?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "No I'm good"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Thanks for visiting! Have a nice day."
+    }
+  } ],
+  "displayName": "recipe_inspiration_1",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_PENDING"
+}

@@ -1,0 +1,49 @@
+{
+  "name": "60afcba1-1489-4d49-873c-617322fe270e",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "Welcome back John! What can I help you with today?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Find me a recipe that I can make with potatoes"
+    }
+  }, {
+    "playbookInvocation": {
+      "playbook": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/cb8ffec2-a996-4cf2-8682-af4c19a33a66",
+      "playbookInput": {
+        "precedingConversationSummary": "The user wants a recipe that has potatoes as an ingredient",
+        "parameters": [ {
+          "name": "city",
+          "value": "New York City"
+        }, {
+          "name": "check_in_date",
+          "value": "2023-12-05"
+        }, {
+          "name": "check_out_date",
+          "value": "2023-12-10"
+        } ]
+      },
+      "playbookOutput": {
+        "executionSummary": "The agent shares a recipe with potatoes as an ingredient",
+        "state": "OK"
+      },
+      "playbookState": "OUTPUT_STATE_OK"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Anything else I can help you with today?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "No I'm good"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Thanks for visiting. Have a nice day!"
+    }
+  } ],
+  "displayName": "by_ingredients_1",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_PENDING"
+}

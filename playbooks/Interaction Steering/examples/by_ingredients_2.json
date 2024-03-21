@@ -1,0 +1,45 @@
+{
+  "name": "7e7d87b1-834f-41eb-8ac4-b437d0f720e2",
+  "actions": [ {
+    "userUtterance": {
+      "text": "My husband loves dishes with chillies, any suggestions?"
+    }
+  }, {
+    "playbookInvocation": {
+      "playbook": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/cb8ffec2-a996-4cf2-8682-af4c19a33a66",
+      "playbookInput": {
+        "precedingConversationSummary": "The user wants a recipe with chillies",
+        "parameters": [ {
+          "name": "city",
+          "value": "Austin"
+        }, {
+          "name": "check_in_date",
+          "value": "2023-12-03"
+        }, {
+          "name": "check_out_date",
+          "value": "2023-12-10"
+        } ]
+      },
+      "playbookOutput": {
+        "executionSummary": "The agent finds a recipe with chillies as an ingredient",
+        "state": "OK"
+      },
+      "playbookState": "OUTPUT_STATE_OK"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Anything else?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "That's all"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Thanks for visiting. Have a great day."
+    }
+  } ],
+  "displayName": "by_ingredients_2",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_PENDING"
+}

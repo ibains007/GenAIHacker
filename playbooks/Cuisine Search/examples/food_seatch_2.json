@@ -1,0 +1,32 @@
+{
+  "name": "d8637c67-3bc7-4ecc-b58b-63b227cf1210",
+  "actions": [ {
+    "toolUse": {
+      "tool": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/f30f6766-97ef-4b55-9865-b380b940bf9a",
+      "action": "cuisine_search",
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "",
+          "snippets": [ {
+            "text": "",
+            "title": "",
+            "uri": ""
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Here are some great sides to go with your meal\n\n- Lobster fries\n- Egg fried rice\n- Chips"
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "The user wants to know where to find clam chowder restaurants in Cambridge, Massachusetts "
+  },
+  "playbookOutput": {
+    "executionSummary": "The agent shared the list of clam chowder restaurants in Cambridge, Massachusetts."
+  },
+  "displayName": "food_seatch_2",
+  "retrievalStrategy": "DEFAULT"
+}

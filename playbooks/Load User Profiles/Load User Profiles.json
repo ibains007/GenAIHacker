@@ -1,0 +1,29 @@
+{
+  "name": "711c16e7-6cbb-41ac-92bf-8bd57b012cc9",
+  "displayName": "Load User Profiles",
+  "goal": "Your goal is to load a user profile into memory based on the provided profile ID.",
+  "steps": [ {
+    "text": "Ask the user which profile they would like to load"
+  }, {
+    "text": "They can chooose from 3 profiles:",
+    "steps": [ {
+      "text": "\"John Smith - Personal\""
+    }, {
+      "text": "\"John Smith - Work\""
+    }, {
+      "text": "\"Jane Maxwell - Personal\""
+    } ]
+  }, {
+    "text": "Call ${TOOL: get_user_profile} to load the user's profile information."
+  } ],
+  "outputParameterDefinitions": [ {
+    "name": "user_details",
+    "description": "The user's profile information in JSON literal format.",
+    "typeSchema": {
+      "inlineSchema": {
+        "type": "STRING"
+      }
+    }
+  } ],
+  "referencedTools": [ "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/bfa22198-b9a6-491a-9940-54842d060ac8" ]
+}

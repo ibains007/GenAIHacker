@@ -1,0 +1,89 @@
+{
+  "name": "c66763b9-2bcf-4590-99e4-773b99b96978",
+  "displayName": "skiing-recommendations",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "I want to take my family skiing, any recommendations?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+    
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "anything outside the US?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+    
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "Whistler seems nice, what restaurants are there?"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+    
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1702425279,
+    "nanos": 910811000
+  },
+  "expectedTestCaseResult": {
+    "expectedActions": [ {
+      "playbookInvocation": {
+        "playbook": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/b0b56b60-d3dd-4402-a684-05affced113f"
+      }
+    }, {
+      "toolUse": {
+        "tool": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/47c3ac51-204c-40c2-b4ad-a88ebd8b55b9",
+        "action": "places_search_tool",
+        "inputParameters": [ {
+          "name": "requestBody",
+          "value": {
+            "city": "Whistler",
+            "preferences": "restaurant"
+          }
+        } ],
+        "outputParameters": [ {
+          "name": "200",
+          "value": {
+            "results": [ {
+              "address": "7-4340 Sundial Pl, Whistler, BC V8E 1G5, Canada",
+              "name": "Black's Pub",
+              "place_id": "ChIJQYo_nkwjh1QRwjbxRABuPI4",
+              "rating": 4.7000000000000002,
+              "user_ratings_total": 4014
+            }, {
+              "address": "4429 Sundial Pl, Whistler, BC V0N 1B4, Canada",
+              "name": "The Keg Steakhouse + Bar - Whistler",
+              "place_id": "ChIJsZ8wpUwjh1QRaKBmAjQEUEc",
+              "rating": 4.2999999999999998,
+              "user_ratings_total": 1364
+            }, {
+              "address": "4122 Village Green #13, Whistler, BC V8E 1G9, Canada",
+              "name": "Stonesedge Kitchen",
+              "place_id": "ChIJGxfhTksjh1QRflm-QFJbIaQ",
+              "rating": 4.4000000000000004,
+              "user_ratings_total": 1515
+            } ]
+          }
+        } ]
+      }
+    } ]
+  },
+  "languageCode": "en"
+}

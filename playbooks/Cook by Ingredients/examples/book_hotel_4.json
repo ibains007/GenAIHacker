@@ -1,0 +1,159 @@
+{
+  "name": "30e9bac8-ce42-4a4a-a06c-d3a60ced9f11",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "I can help you find a hotel in New York City. What dates are you looking to stay?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "January 1 to the 7"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/8de8035c-0d51-4370-a623-44f78eb0e6c8",
+      "action": "hotel_search",
+      "inputParameters": [ {
+        "name": "request",
+        "value": {
+          "check_in_date": "2023-01-01",
+          "check_out_date": "2023-01-07",
+          "city": "New York City",
+          "num_results": 10
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "response",
+        "value": {
+          "content": {
+            "results": [ {
+              "address": "790 7th Ave, New York, NY 10019, United States",
+              "name": "The Manhattan at Times Square Hotel",
+              "place_id": "ChIJw_JUgvhYwokRIgBAxZdF4eA",
+              "rating": 3.2000000000000002,
+              "user_ratings_total": 7762
+            }, {
+              "address": "125 W 45th St, New York, NY 10036, United States",
+              "name": "45 Times Square Hotel",
+              "place_id": "ChIJ3YpBd1VYwokRLEOmlKSMn3Q",
+              "rating": 4.2999999999999998,
+              "user_ratings_total": 1157
+            }, {
+              "address": "38 W 31st St, New York, NY 10001, United States",
+              "name": "31 Street Broadway Hotel",
+              "place_id": "ChIJ15MMyYBZwokRRDnCWcAzD8s",
+              "rating": 2.5,
+              "user_ratings_total": 213
+            }, {
+              "address": "442 W 36th St., New York, NY 10018, United States",
+              "name": "HUDSON RIVER HOTEL",
+              "place_id": "ChIJV3lB4rJZwokRZ_Epke8d0mQ",
+              "rating": 3.2000000000000002,
+              "user_ratings_total": 491
+            }, {
+              "address": "1776 Eastchester Rd, Bronx, NY 10461, United States",
+              "name": "Residence Inn by Marriott New York The Bronx at Metro Center Atrium",
+              "place_id": "ChIJTz49ZKmMwokRMP4rAQlNtvk",
+              "rating": 4.5,
+              "user_ratings_total": 886
+            }, {
+              "address": "100 US-46, Ridgefield Park, NJ 07660, United States",
+              "name": "Hampton Inn Ridgefield Park",
+              "place_id": "ChIJBwnGPXH3wokR2VamNz6v_Zs",
+              "rating": 3.7999999999999998,
+              "user_ratings_total": 978
+            }, {
+              "address": "370 4th Ave, Brooklyn, NY 11215, United States",
+              "name": "Hotel Le Bleu",
+              "place_id": "ChIJyafC7v5awokRmgKhrJt1GK0",
+              "rating": 3.8999999999999999,
+              "user_ratings_total": 606
+            }, {
+              "address": "1605 Broadway, New York, NY 10019, United States",
+              "name": "Crowne Plaza Times Square Manhattan, an IHG Hotel",
+              "place_id": "ChIJP79nc1ZYwokRkfeUgsDBspQ",
+              "rating": 4.2000000000000002,
+              "user_ratings_total": 6228
+            }, {
+              "address": "436 E 149th St, Bronx, NY 10455, United States",
+              "name": "Opera House Hotel",
+              "place_id": "ChIJCWzLnMj1wokR5ciYSnXHmmw",
+              "rating": 4.5,
+              "user_ratings_total": 1165
+            }, {
+              "address": "42-24 Crescent St, Queens, NY 11101, United States",
+              "name": "Red Lion Inn \u0026 Suites Long Island City",
+              "place_id": "ChIJc44U5NVYwokR_CRas-JQdhY",
+              "rating": 3.6000000000000001,
+              "user_ratings_total": 861
+            } ]
+          }
+        }
+      } ]
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Here are some hotels in New York City that are available from January 1st to January 7th. Which one would you like to book?\n- The Manhattan at Times Square Hotel\n- 45 Times Square Hotel\n- 31 Street Broadway Hotel\n- HUDSON RIVER HOTEL\n- Residence Inn by Marriott New York The Bronx at Metro Center Atrium\n- Hampton Inn Ridgefield Park\n- Hotel Le Bleu\n- Crowne Plaza Times Square Manhattan, an IHG Hotel\n- Opera House Hotel\n- Red Lion Inn \u0026 Suites Long Island City"
+    }
+  }, {
+    "userUtterance": {
+      "text": "let's do the Hotel Le Bleu"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Great, let me just confirm your booking details \nHotel Name = Hotel Le Bleu\nCheck In Date = January 1\nCheck Out Date = January 7\n# Rooms = 1\n# Travelers = 1\n \nIs that correct?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "yep that's it!"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/8bf1d260-7574-455c-ae35-e3312c560b5f",
+      "action": "book_hotel",
+      "inputParameters": [ {
+        "name": "request",
+        "value": {
+          "check_in_date": "2024-01-01",
+          "check_out_date": "2024-01-07",
+          "hotel": "Hotel Le Bleu",
+          "num_rooms": 1,
+          "num_travelers": 1
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "response",
+        "value": {
+          "confirmation_number": "6QG5QZDC"
+        }
+      } ]
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Great! We've confirmed your booking and have Confirmation # 6QG5QZDC for your records."
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "The user wants to find a hotel in New York City for January 1 to 7.",
+    "parameters": [ {
+      "name": "city",
+      "value": "New York City"
+    }, {
+      "name": "check_in_date",
+      "value": "2024-01-01"
+    }, {
+      "name": "check_out_date",
+      "value": "2023-01-07"
+    } ]
+  },
+  "playbookOutput": {
+    "executionSummary": "Agent booked Hotel Le Bleu for the user and shared the confirmation number.",
+    "state": "OK",
+    "parameters": [ {
+      "name": "confirmation_number",
+      "value": "6QG5QZDC"
+    } ]
+  },
+  "displayName": "book_hotel_4",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_OK"
+}

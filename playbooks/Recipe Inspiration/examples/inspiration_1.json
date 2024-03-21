@@ -1,0 +1,48 @@
+{
+  "name": "0f19a052-f1ba-4682-a2a7-cb2892246f19",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "I love Indian food! Here's a few popular recipies \n\n- Chicken Curry and Rice\n- Vegetable Biryani\n- Samosa Chaat\n- Lamb Jalfrezi \n- Daal and Naan"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Ah those are nice but I actually I think I would like a Mexican dish"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Ok, take a look at these Mexican dishes:\n\n- Three been Curry\n- Chicken Fajtas\n- Quasadillas\n- Jalapeno Poppers\n"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Three been Curry sounds cool! Can I have the recipe please?"
+    }
+  }, {
+    "playbookInvocation": {
+      "playbook": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/cb8ffec2-a996-4cf2-8682-af4c19a33a66",
+      "playbookInput": {
+        "precedingConversationSummary": "The user wants the ingredients to make their meal",
+        "parameters": [ {
+          "name": "city",
+          "value": "Crested Butte"
+        }, {
+          "name": "num_travelers",
+          "value": 5
+        }, {
+          "name": "num_rooms",
+          "value": 2
+        } ]
+      },
+      "playbookOutput": {
+        "executionSummary": "The user was able to get the ingredients needed to make their meal"
+      }
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "The user wants to find an idea for a recipe"
+  },
+  "playbookOutput": {
+    "executionSummary": "Agent presents user with some recipes"
+  },
+  "displayName": "inspiration_1",
+  "retrievalStrategy": "DEFAULT"
+}

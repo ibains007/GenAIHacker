@@ -1,0 +1,77 @@
+{
+  "name": "184a6493-7122-414c-b3bb-42e2e1dc2598",
+  "displayName": "seafood-restaurants",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "hello"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+    
+    }
+  }, {
+    "userInput": {
+      "input": {
+        "text": {
+          "text": "I'm looking for a nice seafood restaurant in Mountain View CA"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+    
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1702425362,
+    "nanos": 999806000
+  },
+  "expectedTestCaseResult": {
+    "expectedActions": [ {
+      "playbookInvocation": {
+        "playbook": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/20c31554-9206-4440-89e0-9da89e8f0eed"
+      }
+    }, {
+      "toolUse": {
+        "tool": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/47c3ac51-204c-40c2-b4ad-a88ebd8b55b9",
+        "action": "places_search_tool",
+        "inputParameters": [ {
+          "name": "requestBody",
+          "value": {
+            "city": "Mountain View",
+            "preferences": "seafood restaurant"
+          }
+        } ],
+        "outputParameters": [ {
+          "name": "200",
+          "value": {
+            "results": [ {
+              "address": "401 Castro St #100, Mountain View, CA 94041, United States",
+              "name": "Scratch",
+              "place_id": "ChIJTzWDpDO3j4ARI08nSK_WLeU",
+              "rating": 4.0999999999999996,
+              "user_ratings_total": 2061
+            }, {
+              "address": "191 Castro St, Mountain View, CA 94041, United States",
+              "name": "Eureka! Mountain View",
+              "place_id": "ChIJ9aXjGTS3j4AR2Gpu1hs3qU4",
+              "rating": 4.2999999999999998,
+              "user_ratings_total": 4108
+            }, {
+              "address": "545 San Antonio Rd Suite 34, Mountain View, CA 94040, United States",
+              "name": "Pacific Catch",
+              "place_id": "ChIJCYQfo56wj4AR3ow1p23mAqA",
+              "rating": 4.2999999999999998,
+              "user_ratings_total": 1295
+            } ]
+          }
+        } ]
+      }
+    } ]
+  },
+  "languageCode": "en"
+}

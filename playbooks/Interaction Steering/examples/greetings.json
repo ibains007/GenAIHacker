@@ -1,0 +1,48 @@
+{
+  "name": "8734d636-c967-4929-84d1-71eb1d834c03",
+  "actions": [ {
+    "userUtterance": {
+      "text": "Hello"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Hi, I'm your shopping assistant. I can help you search for recipies of interest, get recipies by cuisine, by ingredients or by preference. What can I help you with today?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "I need an idea what to cook today"
+    }
+  }, {
+    "playbookInvocation": {
+      "playbook": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/20c31554-9206-4440-89e0-9da89e8f0eed",
+      "playbookInput": {
+        "precedingConversationSummary": "User wants to find a recipe that matches their preference cuisine",
+        "parameters": [ {
+          "name": "city",
+          "value": "Denver"
+        } ]
+      },
+      "playbookOutput": {
+        "executionSummary": "Agent listed different type of cuisines its aware of",
+        "state": "OK"
+      },
+      "playbookState": "OUTPUT_STATE_OK"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Anything else?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "No thanks"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Thanks for visiting today. Have a great day!"
+    }
+  } ],
+  "displayName": "greetings",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "en"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "1fb18f6a-5887-4e5a-91b7-7cbb8e413774",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "Hey there, welcome back! What can I help you with today?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Yeah I ran into my old friend who is coming over for dinner today. Can you suggest what I can cook?"
+    }
+  }, {
+    "playbookInvocation": {
+      "playbook": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/20c31554-9206-4440-89e0-9da89e8f0eed",
+      "playbookInput": {
+        "precedingConversationSummary": "The user wants suggestions for some recipies",
+        "parameters": [ {
+          "name": "city",
+          "value": "San Jose"
+        } ]
+      },
+      "playbookOutput": {
+        "executionSummary": "The agent shared some popular recipies",
+        "state": "OK"
+      },
+      "playbookState": "OUTPUT_STATE_OK"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Is there anything else I can help you with?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "No, that's all"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Thanks for traveling with Google! Have a nice day."
+    }
+  } ],
+  "displayName": "cuisine_search_1",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_PENDING"
+}

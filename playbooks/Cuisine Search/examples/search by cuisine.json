@@ -1,0 +1,36 @@
+{
+  "name": "4c851557-dbdd-4bd5-940e-07153e074198",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "You're looking for a Chinese dish, correct?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/f30f6766-97ef-4b55-9865-b380b940bf9a",
+      "action": "cuisine_search",
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "",
+          "snippets": [ {
+            "text": "",
+            "title": "",
+            "uri": ""
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "agentUtterance": {
+      "text": "How about a chow mein dish?"
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "The user wants to know where the closest airport is to their current hotel in San Francisco"
+  },
+  "playbookOutput": {
+    "executionSummary": "The agent shared the closest airport in San Francisco."
+  },
+  "displayName": "search by cuisine",
+  "retrievalStrategy": "DEFAULT"
+}

@@ -1,0 +1,39 @@
+{
+  "name": "3631e11a-c56c-4882-86e4-f4b9e5709499",
+  "actions": [ {
+    "toolUse": {
+      "tool": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/bfa22198-b9a6-491a-9940-54842d060ac8",
+      "action": "get_user_profile",
+      "inputParameters": [ {
+        "name": "get_user_profile input",
+        "value": {
+          "profile_id": "John Smith - Personal"
+        }
+      } ],
+      "outputParameters": [ {
+        "name": "get_user_profile output",
+        "value": {
+          "result": {
+          
+          }
+        }
+      } ]
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "The user wants to load the John Smith - Personal profile"
+  },
+  "playbookOutput": {
+    "executionSummary": "The user was able to load the profile.",
+    "state": "OK",
+    "parameters": [ {
+      "name": "user_details",
+      "value": {
+      
+      }
+    } ]
+  },
+  "displayName": "load_profile_1",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_OK"
+}

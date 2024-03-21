@@ -1,0 +1,36 @@
+{
+  "name": "bf90b427-afef-4a6d-b9dd-2339b379a23c",
+  "actions": [ {
+    "toolUse": {
+      "tool": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/f30f6766-97ef-4b55-9865-b380b940bf9a",
+      "action": "cuisine_search",
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "",
+          "snippets": [ {
+            "text": "",
+            "title": "",
+            "uri": ""
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Here are some healthy options\n\n- Chicken salad\n- Fish bake\n- Vegetable curry"
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "The user wants to know where to find dim sum restaurants in the Chelsea neighborhood of New York City.",
+    "parameters": [ {
+      "name": "city",
+      "value": "New York City"
+    } ]
+  },
+  "playbookOutput": {
+    "executionSummary": "The agent shared the list of dim sum in the Chelsea neighborhood in New York City"
+  },
+  "displayName": "search_by_dish_type",
+  "retrievalStrategy": "DEFAULT"
+}

@@ -1,0 +1,42 @@
+{
+  "name": "566a408c-521b-4cef-a146-8c108cbd8eb8",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "A Chinese dish, correct?"
+    }
+  }, {
+    "toolUse": {
+      "tool": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/f30f6766-97ef-4b55-9865-b380b940bf9a",
+      "action": "cuisine_search",
+      "outputParameters": [ {
+        "name": "200",
+        "value": {
+          "answer": "",
+          "snippets": [ {
+            "text": "",
+            "title": "",
+            "uri": ""
+          } ]
+        }
+      } ]
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Here are some Chinese meals:\n- Vegetable Chow Mein\n- Egg Fried Noodles\n- Black Bean Curry"
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "The user wants to find dim sum restaurants in hoboken, new jersey",
+    "parameters": [ {
+      "name": "city",
+      "value": "Hoboken"
+    } ]
+  },
+  "playbookOutput": {
+    "executionSummary": "The agent shared a list of dim sum restaurants in Hoboken, New Jersey",
+    "state": "OK"
+  },
+  "displayName": "food_search_example_1",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_OK"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "5c0afd19-228d-442e-ad57-8a4b8962db7d",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "I love spicy food! Here are some popular dishes: \n\n- Chilli con carne\n- Peri Peri Chicken\n- Chicken Jalfrezi\n- Spicy vegetable pizza\n"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Chicken Jalfrezi  sounds cool! what ingredients do I need?"
+    }
+  }, {
+    "playbookInvocation": {
+      "playbook": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/cb8ffec2-a996-4cf2-8682-af4c19a33a66",
+      "playbookInput": {
+        "precedingConversationSummary": "The user wants to book a hotel in Loveland",
+        "parameters": [ {
+          "name": "city",
+          "value": "Loveland"
+        }, {
+          "name": "num_travelers",
+          "value": 5
+        }, {
+          "name": "num_rooms",
+          "value": 2
+        } ]
+      },
+      "playbookOutput": {
+        "executionSummary": "The customer was able to book a hotel in Loveland"
+      }
+    }
+  } ],
+  "playbookInput": {
+    "precedingConversationSummary": "The user has a particular cuisine in mind, but cannot decide on what"
+  },
+  "playbookOutput": {
+    "executionSummary": "Agent shared lists of recipies based on the cuisine selected "
+  },
+  "displayName": "inspiration_2",
+  "retrievalStrategy": "DEFAULT"
+}

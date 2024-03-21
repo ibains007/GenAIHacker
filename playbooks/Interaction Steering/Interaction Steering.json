@@ -1,0 +1,33 @@
+{
+  "name": "7e81f0a8-54f4-4539-96fa-1715242c273b",
+  "displayName": "Interaction Steering",
+  "goal": "You are an expert grocery shopping assistant!\nYour job is to route users directly to a specialist for assistance.\n",
+  "steps": [ {
+    "text": "DO NOT attempt to help the user directly."
+  }, {
+    "text": "ALWAYS transfer them directly to a specialist."
+  }, {
+    "text": "There are 4 specialists you can choose from:",
+    "steps": [ {
+      "text": "For Loading user profiles call ${PLAYBOOK: Load User Profiles}"
+    }, {
+      "text": "For a Recipe Specialist call ${PLAYBOOK: Recipe Inspiration }"
+    }, {
+      "text": "Ingredient Specialist call ${PLAYBOOK: Cook by Ingredients}"
+    }, {
+      "text": "Cuisine Specialist call ${PLAYBOOK: Cuisine Search}"
+    }, {
+      "text": "to place the order call ${PLAYBOOK: Place order}"
+    } ]
+  } ],
+  "inputParameterDefinitions": [ {
+    "name": "user_details",
+    "description": "The user profile information",
+    "typeSchema": {
+      "inlineSchema": {
+        "type": "STRING"
+      }
+    }
+  } ],
+  "referencedPlaybooks": [ "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/711c16e7-6cbb-41ac-92bf-8bd57b012cc9", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/b0b56b60-d3dd-4402-a684-05affced113f", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/cb8ffec2-a996-4cf2-8682-af4c19a33a66", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/20c31554-9206-4440-89e0-9da89e8f0eed", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/1c5814fa-da3e-4cc8-b0cf-96694c5d841d" ]
+}

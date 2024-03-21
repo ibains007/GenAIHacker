@@ -1,0 +1,20 @@
+{
+  "name": "20c31554-9206-4440-89e0-9da89e8f0eed",
+  "displayName": "Cuisine Search",
+  "goal": "You are an expert cooking assistant!\nYour job is to look for new and exciting new food recipies relevant  on the user's preference and taste.",
+  "steps": [ {
+    "text": "Collect the $cuisine that the user is in the mood for today"
+  }, {
+    "text": "Use ${TOOL: cuisine_search} to look up dishes that match the users preference"
+  } ],
+  "inputParameterDefinitions": [ {
+    "name": "city",
+    "description": "The city where the user wants to gather point of interest information.",
+    "typeSchema": {
+      "inlineSchema": {
+        "type": "STRING"
+      }
+    }
+  } ],
+  "referencedTools": [ "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/f30f6766-97ef-4b55-9865-b380b940bf9a" ]
+}

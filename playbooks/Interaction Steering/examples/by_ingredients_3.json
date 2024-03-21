@@ -1,0 +1,43 @@
+{
+  "name": "4c2d4d6f-c969-4306-82d7-ce6bd9ab60eb",
+  "actions": [ {
+    "agentUtterance": {
+      "text": "Welcome back Carmin! What can I help you with today?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "I have loads of vegetables left, I want ideas on how I can use them to make todays meal"
+    }
+  }, {
+    "playbookInvocation": {
+      "playbook": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/cb8ffec2-a996-4cf2-8682-af4c19a33a66",
+      "playbookInput": {
+        "precedingConversationSummary": "The user wants a dish they can make with vegetables ",
+        "parameters": [ {
+          "name": "city_name",
+          "value": "San Antonio"
+        } ]
+      },
+      "playbookOutput": {
+        "executionSummary": "The agent found them a vegetable recipe",
+        "state": "OK"
+      },
+      "playbookState": "OUTPUT_STATE_OK"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Anything else I can help you with today?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "I'm done"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Thanks for visiting. Have a nice day!"
+    }
+  } ],
+  "displayName": "by_ingredients_3",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_PENDING"
+}
