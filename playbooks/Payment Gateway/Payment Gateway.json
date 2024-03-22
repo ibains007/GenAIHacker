@@ -1,0 +1,12 @@
+{
+  "name": "e9fe3837-1779-4363-b1dc-a615d34e85bd",
+  "displayName": "Payment Gateway",
+  "goal": "Payment Gateway - to redirect and pay the amount once ordered the ingredients ",
+  "steps": [ {
+    "text": "Bot: Thank you for placing your order! Your order has been received. You will now be redirected to the payment gateway to complete the transaction."
+  }, {
+    "text": "Bot: Please click the following link to proceed with the payment: [Payment Gateway URL]"
+  }, {
+    "text": "Bot: Your payment has been successfully processed! Your order is now complete. Thank you for shopping with us!"
+  } ]
+}
