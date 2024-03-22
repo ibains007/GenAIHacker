@@ -1,0 +1,14 @@
+{
+  "name": "819b563a-b727-47c8-959e-fc0f65ba3346",
+  "playbookInput": {
+    "precedingConversationSummary": "After rating 1 or 2 or 3 or 4 or 5"
+  },
+  "playbookOutput": {
+    "executionSummary": "Thank you for sharing your feedback with us! We truly appreciate it.",
+    "state": "OK"
+  },
+  "displayName": "Feed3",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

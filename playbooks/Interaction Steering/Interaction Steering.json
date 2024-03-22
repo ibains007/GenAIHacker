@@ -5,22 +5,17 @@
   "steps": [ {
     "text": "DO NOT attempt to help the user directly."
   }, {
-    "text": "greet the customer and ask them how you can help.",
-    "steps": [ {
-      "text": "If the customer wants to book events, route them to ${PLAYBOOK: event}"
-    }, {
-      "text": "If the customer wants to place the order, route them to ${PLAYBOOK: Place order}"
-    }, {
-      "text": "For a Recipe Specialist call ${PLAYBOOK: Recipe Inspiration }"
-    }, {
-      "text": "For Loading user profiles call ${PLAYBOOK: Load User Profiles}"
-    }, {
-      "text": "Cuisine Specialist call ${PLAYBOOK: Cuisine Search}"
-    }, {
-      "text": "Ingredient Specialist call ${PLAYBOOK: Cook by Ingredients}"
-    } ]
+    "text": "greet the customer and ask them how you can help."
   }, {
-    "text": "Ask for customer feedback and say thank you before ending the chat."
+    "text": "If the customer wants to book events, route them to ${PLAYBOOK: event}"
+  }, {
+    "text": "If the customer provides dishes, route them to Ingredient Specialist call ${PLAYBOOK: Cook by Ingredients}"
+  }, {
+    "text": "If the customer wants to place the order, route them to ${PLAYBOOK: Place order}"
+  }, {
+    "text": "If customer has added the shopping list, then Route the customer to  ${PLAYBOOK: Payment Gateway}"
+  }, {
+    "text": "Ask for customer feedback ${PLAYBOOK: Feedback} and say thank you before ending the chat."
   } ],
   "inputParameterDefinitions": [ {
     "name": "user_details",
@@ -31,6 +26,6 @@
       }
     }
   } ],
-  "referencedPlaybooks": [ "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/8ac6cdd4-9048-4ee0-9409-ad502b4c6e59", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/1c5814fa-da3e-4cc8-b0cf-96694c5d841d", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/b0b56b60-d3dd-4402-a684-05affced113f", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/711c16e7-6cbb-41ac-92bf-8bd57b012cc9", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/20c31554-9206-4440-89e0-9da89e8f0eed", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/cb8ffec2-a996-4cf2-8682-af4c19a33a66" ],
+  "referencedPlaybooks": [ "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/8ac6cdd4-9048-4ee0-9409-ad502b4c6e59", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/cb8ffec2-a996-4cf2-8682-af4c19a33a66", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/1c5814fa-da3e-4cc8-b0cf-96694c5d841d", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/e9fe3837-1779-4363-b1dc-a615d34e85bd", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/bc62fc9e-d5be-449d-8f10-8700ec8d5055" ],
   "referencedTools": [ "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/54b583ed-0890-40c9-9484-c9fa99431ed3", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/b0a0cbc8-1be0-483b-b36b-0db6a4c03665", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/b862d214-e104-4ee6-94d6-474021b2faaa", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/bfa22198-b9a6-491a-9940-54842d060ac8", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/ea759282-aa35-419f-84ca-4ae7a332b21d", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/f30f6766-97ef-4b55-9865-b380b940bf9a" ]
 }

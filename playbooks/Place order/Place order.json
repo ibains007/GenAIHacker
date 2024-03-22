@@ -5,8 +5,6 @@
   "steps": [ {
     "text": "Place an order for customer if customer has provided a shopping list."
   }, {
-    "text": "Collect the $ingredients that the user may already have and use ${TOOL: Recipe Search} to build a list of ingredients neededS."
-  }, {
     "text": "confirm with the user that they are happy to place the order and send this to a the supermarket"
   }, {
     "text": "add this to an existing shopping list if one exists"

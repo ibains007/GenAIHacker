@@ -1,0 +1,98 @@
+{
+  "name": "cb817346-f0cb-4d60-9ed2-c10fc259f497",
+  "actions": [ {
+    "userUtterance": {
+      "text": "Hi"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Hi there! I'm your shopping assistant. How can I help you today?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "I am hosting a birthday party"
+    }
+  }, {
+    "playbookInvocation": {
+      "playbook": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/8ac6cdd4-9048-4ee0-9409-ad502b4c6e59",
+      "playbookInput": {
+      
+      },
+      "playbookOutput": {
+      
+      }
+    }
+  }, {
+    "agentUtterance": {
+      "text": "I see you're planning a birthday party. How many people will be attending?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "20"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Great! Let's start with the main course. Would you prefer a buffet-style setup or a plated meal?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "buffet-style"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Perfect! Here are a few buffet-style main course options that would be great for a party of 20:\n- Option 1: Roasted chicken with mashed potatoes and green beans\n- Option 2: Lasagna with garlic bread and salad\n- Option 3: Tacos with all the fixings\nWhich of these sounds most appealing to you?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "My guests are vegan"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "I see. Here are a few vegan buffet-style main course options that would be great for a party of 20:\n- Option 1: Vegan lasagna with garlic bread and salad\n- Option 2: Tacos with all the vegan fixings\n- Option 3: Vegetable stir-fry with rice or noodles\nWhich of these sounds most appealing to you?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Option 2"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Great choice! I'll add the vegan tacos with all the fixings to your shopping list. Would you like me to suggest some side dishes and desserts to go with it?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "yes please"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Here are a few side dishes and desserts that would go well with the vegan tacos:\n- Side dishes:\n  - Mexican rice\n  - Refried beans\n  - Corn on the cob\n- Desserts:\n  - Churros\n  - Flan\n  - Tres leches cake\nWhich of these sound most appealing to you?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Lets go for Mexican rice and Churros"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Perfect! I'll add the Mexican rice and churros to your shopping list. Is there anything else I can help you with today?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "Can you show me the list"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Sure! Here's your shopping list so far:\n- Vegan tacos with all the fixings\n- Mexican rice\n- Churros\nIs there anything else I can add?"
+    }
+  }, {
+    "userUtterance": {
+      "text": "ok"
+    }
+  }, {
+    "agentUtterance": {
+      "text": "Great! I'll finalize your order and send it to the supermarket. You should receive a confirmation email shortly with all the details. Is there anything else I can help you with today?"
+    }
+  } ],
+  "displayName": "Party_prep_1",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_PENDING",
+  "languageCode": "en"
+}

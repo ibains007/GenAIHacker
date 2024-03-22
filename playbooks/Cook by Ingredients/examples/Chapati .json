@@ -1,0 +1,12 @@
+{
+  "name": "356f6470-98a7-41aa-8170-e5f92766b2e5",
+  "playbookInput": {
+    "precedingConversationSummary": "Chapati "
+  },
+  "playbookOutput": {
+    "executionSummary": "- Whole wheat flour (atta) or Multi purpose Flour  (Maida)\n- Water\n- Salt\n- Cooking oil or ghee (optional, for kneading and cooking)"
+  },
+  "displayName": "Chapati ",
+  "retrievalStrategy": "DEFAULT",
+  "languageCode": "en"
+}

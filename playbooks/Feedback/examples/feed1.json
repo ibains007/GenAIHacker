@@ -1,0 +1,14 @@
+{
+  "name": "ebedf71f-18cf-432b-8057-5bf601251c2c",
+  "playbookInput": {
+    "precedingConversationSummary": "Hello! Thank you for using our service today. We're always looking to improve, and your feedback helps us do just that. Would you mind sharing your thoughts with us?\n- If yes then"
+  },
+  "playbookOutput": {
+    "executionSummary": " How would you rate your experience today?\n- 1. ★☆☆☆☆ (Poor)\n- 2. ★★☆☆☆ (Fair)\n- 3. ★★★☆☆ (Good)\n- 4. ★★★★☆ (Very good)\n- 5. ★★★★★ (Excellent)",
+    "state": "OK"
+  },
+  "displayName": "feed1",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

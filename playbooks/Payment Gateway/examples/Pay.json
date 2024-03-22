@@ -1,0 +1,14 @@
+{
+  "name": "ad69afc8-7f44-4a8b-a32c-639686f2aeb7",
+  "playbookInput": {
+    "precedingConversationSummary": "after ordering"
+  },
+  "playbookOutput": {
+    "executionSummary": "Hello! Thank you for using our service today. We're always looking to improve, and your feedback helps us do just that. Would you mind sharing your thoughts with us?",
+    "state": "OK"
+  },
+  "displayName": "Pay",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}
