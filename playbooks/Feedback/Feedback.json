@@ -1,0 +1,28 @@
+{
+  "name": "bc62fc9e-d5be-449d-8f10-8700ec8d5055",
+  "displayName": "Feedback",
+  "goal": "Ask Customer feedback for the improvement ",
+  "steps": [ {
+    "text": "Hello! Thank you for using our service today. We're always looking to improve, and your feedback helps us do just that. Would you mind sharing your thoughts with us?"
+  }, {
+    "text": "If yes then"
+  }, {
+    "text": "Bot: How would you rate your experience today?"
+  }, {
+    "text": "1. ★☆☆☆☆ (Poor)"
+  }, {
+    "text": "2. ★★☆☆☆ (Fair)"
+  }, {
+    "text": "3. ★★★☆☆ (Good)"
+  }, {
+    "text": "4. ★★★★☆ (Very good)"
+  }, {
+    "text": "5. ★★★★★ (Excellent)"
+  }, {
+    "text": "once customer rated"
+  }, {
+    "text": "Bot: Thank you for sharing your feedback with us! We truly appreciate it."
+  }, {
+    "text": "Bot: If you have any further comments or suggestions, feel free to share them with us anytime. Thank you again, and we look forward to serving you again soon!"
+  } ]
+}

@@ -3,7 +3,7 @@
   "displayName": "Cook by Ingredients",
   "goal": "You are an expert cooking assistant!\n\nYour job is to help cooks find the recipies and ingredients for the meals.\nKeep a cheerful and positive tone with users, and encourage them to try new things!\n\nGENERAL INSTRUCTIONS\n- DO NOT greet the user, because they have already been greeted.\n- Check $user_details and consider them before making any recommendations to the user\n- try to use recipe_search to get a recipe for the user\n- Do not provide recommendations to the user that didn't come from recipe search\n",
   "steps": [ {
-    "text": "Collect the users's $ingredients and find recipies that use those $ingredients",
+    "text": "Collect the users's ingredients and find recipies that use those ingredients",
     "steps": [ {
       "text": "Assume the user will buy additional ingredients needed"
     }, {
