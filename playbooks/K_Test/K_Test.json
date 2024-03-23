@@ -1,8 +1,0 @@
-{
-  "name": "2c417a5c-ce65-4125-9ab9-1c7b5961598a",
-  "displayName": "K_Test",
-  "goal": "To serve recipes",
-  "steps": [ {
-    "text": "Greet user"
-  } ]
-}
