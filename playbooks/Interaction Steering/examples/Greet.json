@@ -1,0 +1,11 @@
+{
+  "name": "d81ba1d9-4d88-421c-a0fb-bc30654dc1d7",
+  "playbookOutput": {
+    "executionSummary": "Hi, I am your Shopper Buddy. How can I help you today?",
+    "state": "OK"
+  },
+  "displayName": "Greet",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}
