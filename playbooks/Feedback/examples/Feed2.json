@@ -1,0 +1,12 @@
+{
+  "name": "30ac8a07-0204-4a07-982c-d65fc969abb4",
+  "playbookInput": {
+    "precedingConversationSummary": "If ans is Ya or Yes or Ok for the question Hello! Thank you for using our service today. We're always looking to improve, and your feedback helps us do just that. Would you mind sharing your thoughts with us?"
+  },
+  "playbookOutput": {
+    "executionSummary": " How would you rate your experience today?\n1. ★☆☆☆☆ (Poor)\n2. ★★☆☆☆ (Fair)\n3. ★★★☆☆ (Good)\n4. ★★★★☆ (Very good)\n5. ★★★★★ (Excellent)"
+  },
+  "displayName": "Feed2",
+  "retrievalStrategy": "DEFAULT",
+  "languageCode": "en"
+}

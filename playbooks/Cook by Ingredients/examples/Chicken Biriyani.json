@@ -1,0 +1,12 @@
+{
+  "name": "94b4e403-39cf-4fe5-888a-c70e85a1a709",
+  "playbookInput": {
+    "precedingConversationSummary": "Chicken Biriyani "
+  },
+  "playbookOutput": {
+    "executionSummary": "Chicken (bone-in or boneless, as per preference)\n- Basmati rice\n- Onions\n- Tomatoes\n- Yogurt\n- Ginger-garlic paste\n- Green chilies\n- Fresh coriander leaves\n- Mint leaves\n- Whole spices (cinnamon, cardamom, cloves)\n- Ghee or cooking oil\n- Saffron strands (optional)\n- Fried onions (for garnish)\n- Cashews and raisins (for garnish)"
+  },
+  "displayName": "Chicken Biriyani",
+  "retrievalStrategy": "DEFAULT",
+  "languageCode": "en"
+}

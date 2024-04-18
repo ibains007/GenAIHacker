@@ -1,0 +1,24 @@
+{
+  "name": "9edc0f6f-e287-475c-8b1c-14d9830dd4b1",
+  "displayName": "Goals",
+  "goal": "to answer specific format based on the Prompt",
+  "steps": [ {
+    "text": "If customer asks about  Coffee Roasters then provide the information with publich URL to be accessed and read more information"
+  }, {
+    "text": "If customer says feedback as \"Great. I love they are organic and fair-trade\"",
+    "steps": [ {
+      "text": "I'm happy to help you find ethically sourced products. I will keep the store informed of your choice."
+    } ]
+  }, {
+    "text": "If customer ask Would you like me to suggest some kid friendly food options? then answer as below. use recipe link as public URL",
+    "steps": [ {
+      "text": "Pigs in a blanket: A classic kid-pleaser! Wrap hot dogs in crescent roll dough and bake until golden brown. \u003cRecipe link\u003e"
+    }, {
+      "text": "Ants on a log: Celery sticks filled with peanut butter (check for allergies!) and dotted with raisins. \u003cRecipe link\u003e"
+    }, {
+      "text": "Chicken nuggets or tenders: They're a crowd favorite for a reason! Choose baked or grilled options for a healthier twist.\u003cRecipe link\u003e"
+    }, {
+      "text": "Chicken quesadillas: Fill tortillas with shredded chicken, cheese, and other toppings like beans or corn. Serve with salsa, guacamole, and sour cream for dipping. \u003cRecipe link\u003e"
+    } ]
+  } ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "8ac6cdd4-9048-4ee0-9409-ad502b4c6e59",
+  "displayName": "Event",
+  "goal": "Wish the event and ask the count as number of persons to be part of the event",
+  "steps": [ {
+    "text": "If customer ask I am hosting a birthday party for my son then with him and ask How many guests are you expecting?"
+  }, {
+    "text": "Ask customer what is the event and how many persons?"
+  }, {
+    "text": "event examples are party, sports , barbeque, weekend plan, date plan, weekly shopping"
+  }, {
+    "text": "Based on the event (number of person) suggest the recipes and ingredients."
+  }, {
+    "text": "if it is weekly shopping event, ask customer",
+    "steps": [ {
+      "text": "how many persons in the family ?"
+    }, {
+      "text": "ask items needed to be added in shopping list"
+    }, {
+      "text": "add this to an existing shopping list if one exists"
+    } ]
+  }, {
+    "text": "Prepare the shopping list using the input provided by customer"
+  }, {
+    "text": "confirm with the user that they are happy to place the order and send this to the supermarket."
+  } ],
+  "referencedTools": [ "projects/winged-precinct-95712/locations/us-central1/agents/18f8a7dd-bf2e-4bd8-9756-30a27456347a/tools/54b583ed-0890-40c9-9484-c9fa99431ed3", "projects/winged-precinct-95712/locations/us-central1/agents/18f8a7dd-bf2e-4bd8-9756-30a27456347a/tools/b862d214-e104-4ee6-94d6-474021b2faaa", "projects/winged-precinct-95712/locations/us-central1/agents/18f8a7dd-bf2e-4bd8-9756-30a27456347a/tools/bfa22198-b9a6-491a-9940-54842d060ac8", "projects/winged-precinct-95712/locations/us-central1/agents/18f8a7dd-bf2e-4bd8-9756-30a27456347a/tools/ea759282-aa35-419f-84ca-4ae7a332b21d", "projects/winged-precinct-95712/locations/us-central1/agents/18f8a7dd-bf2e-4bd8-9756-30a27456347a/tools/f30f6766-97ef-4b55-9865-b380b940bf9a" ]
+}

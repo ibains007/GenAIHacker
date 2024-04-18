@@ -2,7 +2,7 @@
   "name": "3631e11a-c56c-4882-86e4-f4b9e5709499",
   "actions": [ {
     "toolUse": {
-      "tool": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/bfa22198-b9a6-491a-9940-54842d060ac8",
+      "tool": "projects/winged-precinct-95712/locations/us-central1/agents/18f8a7dd-bf2e-4bd8-9756-30a27456347a/tools/bfa22198-b9a6-491a-9940-54842d060ac8",
       "action": "get_user_profile",
       "inputParameters": [ {
         "name": "get_user_profile input",

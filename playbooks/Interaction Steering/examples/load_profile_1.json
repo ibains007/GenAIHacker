@@ -6,7 +6,7 @@
     }
   }, {
     "playbookInvocation": {
-      "playbook": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/711c16e7-6cbb-41ac-92bf-8bd57b012cc9",
+      "playbook": "projects/winged-precinct-95712/locations/us-central1/agents/18f8a7dd-bf2e-4bd8-9756-30a27456347a/playbooks/711c16e7-6cbb-41ac-92bf-8bd57b012cc9",
       "playbookInput": {
         "precedingConversationSummary": "The user wants to load the John Smith personal profile",
         "parameters": [ {

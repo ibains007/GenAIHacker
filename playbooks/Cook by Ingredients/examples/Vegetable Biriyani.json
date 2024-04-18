@@ -1,0 +1,12 @@
+{
+  "name": "357fb8b9-2639-47f0-abd9-c1e8ac9c32cc",
+  "playbookInput": {
+    "precedingConversationSummary": "Vegetable Biriyani"
+  },
+  "playbookOutput": {
+    "executionSummary": "1. Basmati rice\n2. Mixed vegetables (e.g., carrots, peas, potatoes, cauliflower)\n3. Onion\n4. Tomato\n5. Garlic\n6. Ginger\n7. Green chilies\n8. Yogurt\n9. Fresh cilantro (coriander leaves)\n10. Mint leaves\n11. Whole spices (e.g., cinnamon, cardamom, cloves, bay leaves)\n12. Ground spices (e.g., turmeric, cumin, coriander powder)\n13. Ghee or oil\n14. Saffron (optional, for garnish)\n15. Cashews and raisins (optional, for garnish)"
+  },
+  "displayName": "Vegetable Biriyani",
+  "retrievalStrategy": "DEFAULT",
+  "languageCode": "en"
+}

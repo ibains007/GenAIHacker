@@ -1,0 +1,12 @@
+{
+  "name": "eb51875d-5597-4bd5-86ff-2eaec569dabf",
+  "playbookInput": {
+    "precedingConversationSummary": "Lamb Biriyani"
+  },
+  "playbookOutput": {
+    "executionSummary": "- Lamb meat (preferably bone-in for enhanced flavor)\n- Basmati rice\n- Onions\n- Tomatoes\n- Yogurt\n- Ginger-garlic paste\n- Green chilies\n- Fresh coriander leaves\n- Mint leaves\n- Whole spices (cinnamon, cardamom, cloves)\n- Ghee or cooking oil\n- Saffron strands (optional)\n- Fried onions (for garnish)\n- Cashews and raisins (for garnish)"
+  },
+  "displayName": "Lamb Biriyani",
+  "retrievalStrategy": "DEFAULT",
+  "languageCode": "en"
+}

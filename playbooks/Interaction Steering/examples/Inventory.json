@@ -1,0 +1,11 @@
+{
+  "name": "b03661d0-4001-46b1-8525-52e745bab8a9",
+  "playbookOutput": {
+    "executionSummary": "[ { \"Dish\": \"Ants on a Log\", \"Ingredient\": \"Celery Sticks\", \"Quantity\": 2, \"Unit\":\"bunches\", \"Tentative Price\": 2.00 }, { \"Dish\": \"Ants on a Log\", \"Ingredient\": \"Peanut Butter\", \"Quantity\": 1,\"Unit\": \"jar\", \"Tentative Price\": 3.50 }, { \"Dish\": \"Ants on a Log\", \"Ingredient\": \"Raisins\", \"Quantity\": 1, \"Unit\": \"cup\", \"Tentative Price\": 2.00 }, { \"Dish\": \"Chicken Quesadillas\", \"Ingredient\": \"Flour tortillas\", \"Quantity\": 1, \"Unit\": \"package (10 tortillas)\", \"Tentative Price\": 3.00 }, { \"Dish\": \"Chicken Quesadillas\", \"Ingredient\": \"Shredded cooked chicken\", \"Quantity\": 2, \"Unit\": \"cups\", \"Tentative Price\": 5.00 }, { \"Dish\": \"Chicken Quesadillas\", \"Ingredient\": \"Mexican blend cheese\", \"Quantity\": 1, \"Unit\": \"cup\", \"Tentative Price\": 3.00 } ]",
+    "state": "OK"
+  },
+  "displayName": "Inventory",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "undetected"
+}

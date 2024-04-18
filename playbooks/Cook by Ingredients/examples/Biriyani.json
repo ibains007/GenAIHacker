@@ -1,0 +1,14 @@
+{
+  "name": "468121f9-f30c-47f9-bf00-4391ba4b5828",
+  "playbookInput": {
+    "precedingConversationSummary": "Biriyani"
+  },
+  "playbookOutput": {
+    "executionSummary": "What type of biryani are you interested in today?\n1. Chicken Biryani\n2. Lamb Biryani\n3. Vegetable Biryani",
+    "state": "OK"
+  },
+  "displayName": "Biriyani",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

@@ -33,11 +33,11 @@
   "expectedTestCaseResult": {
     "expectedActions": [ {
       "playbookInvocation": {
-        "playbook": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/20c31554-9206-4440-89e0-9da89e8f0eed"
+        "playbook": "projects/winged-precinct-95712/locations/us-central1/agents/18f8a7dd-bf2e-4bd8-9756-30a27456347a/playbooks/20c31554-9206-4440-89e0-9da89e8f0eed"
       }
     }, {
       "toolUse": {
-        "tool": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/47c3ac51-204c-40c2-b4ad-a88ebd8b55b9",
+        "tool": "projects/winged-precinct-95712/locations/us-central1/agents/18f8a7dd-bf2e-4bd8-9756-30a27456347a/tools/47c3ac51-204c-40c2-b4ad-a88ebd8b55b9",
         "action": "places_search_tool",
         "inputParameters": [ {
           "name": "requestBody",

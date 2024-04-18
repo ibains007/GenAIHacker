@@ -1,8 +1,7 @@
 {
-  "name": "f30f6766-97ef-4b55-9865-b380b940bf9a",
-  "displayName": "cuisine_search",
-  "description": "find some suggestion for meals that matches the user preference for the cuisine they are in the mood for",
-  "actions": [ "cuisine_search" ],
+  "name": "432a8dec-4630-4a8e-ace0-6a6a651b1960",
+  "displayName": "fidalgocoffee",
+  "actions": [ "fidalgocoffee" ],
   "dataStoreSpec": {
     "dataStoreConnections": [ {
       "dataStoreType": "UNSTRUCTURED",
@@ -18,11 +17,11 @@
     
     },
     "groundingSettings": {
-      "groundingConfidence": "VERY_HIGH"
+      "groundingConfidence": "HIGH"
     }
   },
   "actionSchemas": [ {
-    "name": "cuisine_search",
+    "name": "fidalgocoffee",
     "inputParameters": [ {
       "name": "requestBody",
       "schema": "{\n  \"required\" : [ \"query\" ],\n  \"type\" : \"object\",\n  \"properties\" : {\n    \"query\" : {\n      \"type\" : \"string\",\n      \"description\" : \"Query for the data store search\"\n    },\n    \"filter\" : {\n      \"type\" : \"string\",\n      \"description\" : \"Filter expression to enhance data store search results.\"\n    },\n    \"userMetadata\" : {\n      \"type\" : \"object\",\n      \"description\" : \"Optional key/value pairs with metadata about the user to refine the data store search query.\"\n    },\n    \"fallback\" : {\n      \"type\" : \"string\",\n      \"description\" : \"Response to provide when no answer is provided by the data store.\"\n    }\n  }\n}"

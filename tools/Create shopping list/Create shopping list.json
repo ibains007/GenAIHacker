@@ -1,12 +1,12 @@
 {
   "name": "54b583ed-0890-40c9-9484-c9fa99431ed3",
   "displayName": "Create shopping list",
-  "description": "Add ingredients to a shopping list that can be sent to the supermarket for collection.\n\nplace the order and provide a order id and delivery time and date.",
+  "description": "Add ingredients to a shopping list that can be sent to the supermarket for collection.\n\nPlace the order  , route the customer to the payment gateway and provide a order id and delivery time and date.",
   "actions": [ "Create shopping list" ],
   "dataStoreSpec": {
     "dataStoreConnections": [ {
       "dataStoreType": "UNSTRUCTURED",
-      "dataStore": "projects/67962247628/locations/us/collections/default_collection/dataStores/genaihacker_1710941168752",
+      "dataStore": "projects/311580074832/locations/us/collections/default_collection/dataStores/genaihacker_1712565673224",
       "documentProcessingMode": "DOCUMENTS"
     } ],
     "models": {
@@ -25,7 +25,7 @@
     "name": "Create shopping list",
     "inputParameters": [ {
       "name": "requestBody",
-      "schema": "{\n  \"required\" : [ \"query\" ],\n  \"type\" : \"object\",\n  \"properties\" : {\n    \"query\" : {\n      \"type\" : \"string\",\n      \"description\" : \"Query for the data store search\"\n    },\n    \"filter\" : {\n      \"type\" : \"string\",\n      \"description\" : \"Filter expression to enhance data store search results.\"\n    }\n  }\n}"
+      "schema": "{\n  \"required\" : [ \"query\" ],\n  \"type\" : \"object\",\n  \"properties\" : {\n    \"query\" : {\n      \"type\" : \"string\",\n      \"description\" : \"Query for the data store search\"\n    },\n    \"filter\" : {\n      \"type\" : \"string\",\n      \"description\" : \"Filter expression to enhance data store search results.\"\n    },\n    \"userMetadata\" : {\n      \"type\" : \"object\",\n      \"description\" : \"Optional key/value pairs with metadata about the user to refine the data store search query.\"\n    },\n    \"fallback\" : {\n      \"type\" : \"string\",\n      \"description\" : \"Response to provide when no answer is provided by the data store.\"\n    }\n  }\n}"
     } ],
     "outputParameters": [ {
       "name": "200",

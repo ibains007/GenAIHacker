@@ -8,10 +8,7 @@
       "text": "Assume the user will buy additional ingredients needed"
     }, {
       "text": "Avoid asking questions about the user's preferences"
-    } ]
-  }, {
-    "text": "Create a ${TOOL: Recipe Search} to search for available recipies.",
-    "steps": [ {
+    }, {
       "text": "repeat if the user has new or additional requirements."
     }, {
       "text": "use ${TOOL: search_by_ingredients} to return a list of ingredients to the user"
@@ -83,5 +80,5 @@
       }
     }
   } ],
-  "referencedTools": [ "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/b862d214-e104-4ee6-94d6-474021b2faaa", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/ea759282-aa35-419f-84ca-4ae7a332b21d" ]
+  "referencedTools": [ "projects/winged-precinct-95712/locations/us-central1/agents/18f8a7dd-bf2e-4bd8-9756-30a27456347a/tools/b862d214-e104-4ee6-94d6-474021b2faaa", "projects/winged-precinct-95712/locations/us-central1/agents/18f8a7dd-bf2e-4bd8-9756-30a27456347a/tools/ea759282-aa35-419f-84ca-4ae7a332b21d", "projects/winged-precinct-95712/locations/us-central1/agents/18f8a7dd-bf2e-4bd8-9756-30a27456347a/tools/f30f6766-97ef-4b55-9865-b380b940bf9a" ]
 }

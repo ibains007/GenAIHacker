@@ -1,0 +1,11 @@
+{
+  "name": "d05d6988-9bc5-481c-a677-18ac865b1c4e",
+  "playbookOutput": {
+    "executionSummary": "Based in Washington state, Fidalgo Coffee roasts specialty-grade coffee beans that are not only organic but also fair trade certified. They focus on sustainable practices throughout their supply chain and offer a variety of enticing blends and single-origin beans. https://fidalgocoffee.com/",
+    "state": "OK"
+  },
+  "displayName": "Fidalgo",
+  "retrievalStrategy": "DEFAULT",
+  "conversationState": "OUTPUT_STATE_OK",
+  "languageCode": "en"
+}

@@ -6,7 +6,7 @@
   "dataStoreSpec": {
     "dataStoreConnections": [ {
       "dataStoreType": "UNSTRUCTURED",
-      "dataStore": "projects/67962247628/locations/us/collections/default_collection/dataStores/genaihacker_1710941168752",
+      "dataStore": "projects/311580074832/locations/us/collections/default_collection/dataStores/genaihacker_1712565673224",
       "documentProcessingMode": "DOCUMENTS"
     } ],
     "models": {
@@ -25,7 +25,7 @@
     "name": "search_by_ingredients",
     "inputParameters": [ {
       "name": "requestBody",
-      "schema": "{\n  \"required\" : [ \"query\" ],\n  \"type\" : \"object\",\n  \"properties\" : {\n    \"query\" : {\n      \"type\" : \"string\",\n      \"description\" : \"Query for the data store search\"\n    },\n    \"filter\" : {\n      \"type\" : \"string\",\n      \"description\" : \"Filter expression to enhance data store search results.\"\n    }\n  }\n}"
+      "schema": "{\n  \"required\" : [ \"query\" ],\n  \"type\" : \"object\",\n  \"properties\" : {\n    \"query\" : {\n      \"type\" : \"string\",\n      \"description\" : \"Query for the data store search\"\n    },\n    \"filter\" : {\n      \"type\" : \"string\",\n      \"description\" : \"Filter expression to enhance data store search results.\"\n    },\n    \"userMetadata\" : {\n      \"type\" : \"object\",\n      \"description\" : \"Optional key/value pairs with metadata about the user to refine the data store search query.\"\n    },\n    \"fallback\" : {\n      \"type\" : \"string\",\n      \"description\" : \"Response to provide when no answer is provided by the data store.\"\n    }\n  }\n}"
     } ],
     "outputParameters": [ {
       "name": "200",

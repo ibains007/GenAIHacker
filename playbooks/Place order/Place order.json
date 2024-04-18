@@ -5,13 +5,11 @@
   "steps": [ {
     "text": "Place an order for customer if customer has provided a shopping list."
   }, {
-    "text": "Collect the $ingredients that the user may already have and use ${TOOL: Recipe Search} to build a list of ingredients neededS."
-  }, {
     "text": "confirm with the user that they are happy to place the order and send this to a the supermarket"
   }, {
     "text": "add this to an existing shopping list if one exists"
   }, {
     "text": "provide order id and deivery date and time."
   } ],
-  "referencedTools": [ "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/54b583ed-0890-40c9-9484-c9fa99431ed3", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/b0a0cbc8-1be0-483b-b36b-0db6a4c03665", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/b862d214-e104-4ee6-94d6-474021b2faaa", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/bfa22198-b9a6-491a-9940-54842d060ac8", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/ea759282-aa35-419f-84ca-4ae7a332b21d", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/f30f6766-97ef-4b55-9865-b380b940bf9a", "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/tools/df-code-interpreter-tool" ]
+  "referencedTools": [ "projects/winged-precinct-95712/locations/us-central1/agents/18f8a7dd-bf2e-4bd8-9756-30a27456347a/tools/54b583ed-0890-40c9-9484-c9fa99431ed3", "projects/winged-precinct-95712/locations/us-central1/agents/18f8a7dd-bf2e-4bd8-9756-30a27456347a/tools/b0a0cbc8-1be0-483b-b36b-0db6a4c03665", "projects/winged-precinct-95712/locations/us-central1/agents/18f8a7dd-bf2e-4bd8-9756-30a27456347a/tools/b862d214-e104-4ee6-94d6-474021b2faaa", "projects/winged-precinct-95712/locations/us-central1/agents/18f8a7dd-bf2e-4bd8-9756-30a27456347a/tools/bfa22198-b9a6-491a-9940-54842d060ac8", "projects/winged-precinct-95712/locations/us-central1/agents/18f8a7dd-bf2e-4bd8-9756-30a27456347a/tools/ea759282-aa35-419f-84ca-4ae7a332b21d", "projects/winged-precinct-95712/locations/us-central1/agents/18f8a7dd-bf2e-4bd8-9756-30a27456347a/tools/f30f6766-97ef-4b55-9865-b380b940bf9a", "projects/winged-precinct-95712/locations/us-central1/agents/18f8a7dd-bf2e-4bd8-9756-30a27456347a/tools/df-code-interpreter-tool" ]
 }

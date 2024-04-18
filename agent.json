@@ -2,7 +2,7 @@
   "defaultLanguageCode": "en",
   "timeZone": "America/Los_Angeles",
   "enableLogging": true,
-  "projectNumber": 67962247628,
+  "projectNumber": 311580074832,
   "speechToTextSettings": {
   
   },
@@ -32,7 +32,7 @@
   
   },
   "genAppBuilderSettings": {
-    "engine": "projects/67962247628/locations/us/collections/default_collection/engines/611724e9-2655-4941-8711-604f9a68928d"
+    "engine": "projects/311580074832/locations/us/collections/default_collection/engines/18f8a7dd-bf2e-4bd8-9756-30a27456347a"
   },
   "duplexSettings": {
   
@@ -40,5 +40,5 @@
   "answerFeedbackSettings": {
   
   },
-  "startPlaybook": "K_PartyPurchase"
+  "startPlaybook": "Interaction Steering"
 }

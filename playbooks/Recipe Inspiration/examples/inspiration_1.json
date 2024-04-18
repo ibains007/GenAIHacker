@@ -18,7 +18,7 @@
     }
   }, {
     "playbookInvocation": {
-      "playbook": "projects/cap-gen-ai-hacker/locations/us-central1/agents/611724e9-2655-4941-8711-604f9a68928d/playbooks/cb8ffec2-a996-4cf2-8682-af4c19a33a66",
+      "playbook": "projects/winged-precinct-95712/locations/us-central1/agents/18f8a7dd-bf2e-4bd8-9756-30a27456347a/playbooks/cb8ffec2-a996-4cf2-8682-af4c19a33a66",
       "playbookInput": {
         "precedingConversationSummary": "The user wants the ingredients to make their meal",
         "parameters": [ {
